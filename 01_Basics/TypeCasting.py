@@ -5,6 +5,10 @@ We can convert one type value to another type. This conversion is called Typecas
 3. complex() 
 4. bool() 
 5. str()
+All Fundamental Data types are immutable. 
+i.e once we creates an object,we cannot perform any changes in that object. 
+If we are trying to change then with those changes a new object will be created. 
+This non-chageable behaviour is called immutability.
 """
 # int()
 # print(int(123.45)) #123
@@ -53,11 +57,22 @@ We can convert one type value to another type. This conversion is called Typecas
 
 # We can use this function to convert other type values to bool type.
 
-print(bool("1"))#True
-print(bool("10.5"))#True
-print(bool("true"))#True
-print(bool(0+1.5j))#True
-print(bool(""))#false
+# print(bool("1"))#True
+# print(bool("10.5"))#True
+# print(bool("true"))#True
+# print(bool(0+1.5j))#True
+# print(bool(""))#false
+
+
+
+#str()
+
+print(str(10))# '10'
+print(str(10.5)) #'10.5'
+
+print(str(10+5j)) #(10+5j)
+
+
 
 
 
